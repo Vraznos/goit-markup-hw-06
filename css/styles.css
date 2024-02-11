@@ -90,7 +90,7 @@ h1, h2{
 }
 .first-section .page-title-button:hover,
 .first-section .page-title-button:focus{
-    color: #404bbf;
+    color:#404BBF ;
 }
 .second-section-mini-titles{
 font-weight: 500;
@@ -127,7 +127,7 @@ letter-spacing: 0.02em;
 color: #f4f4fd;
 }
 
-.third-section{
+.fourth-section{
     background: #F4F4FD;
 }
 .team-info{
@@ -135,4 +135,7 @@ color: #f4f4fd;
 }
 .section-title-portfolio{
     line-height: 1.11;
+}
+.third-section{
+    background-color: #F4F4FD;
 }
