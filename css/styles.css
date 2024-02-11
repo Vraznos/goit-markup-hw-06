@@ -9,8 +9,9 @@ button{
     cursor: pointer;
 }
 body{
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #FFFFFF ;
+    color: #434455;
 
 }
 p{
@@ -23,13 +24,13 @@ h1, h2{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.1;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4D5AE5;
     }
 .logo-symbol{
-        color: #4D5AE5;
+        color: #2e2f42;
     }
 .header-navigation-links{
         font-weight: 500;
@@ -38,6 +39,10 @@ h1, h2{
         letter-spacing: 0.02em;
         color: #2e2f42;
         }
+        .header-navigation-links hover,
+        .header-navigation-links foucs{
+            color: #404bbf;
+        }
 .adress-links{
             font-family: "Roboto", sans-serif;
             font-weight: 400;
@@ -45,13 +50,20 @@ h1, h2{
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: #434455;
-            font-style: normal;
+          
+        }
+        .adress-info{
+        font-style: normal;
+        }
+        .adress-info .adress-links:hover,
+        .adress-info .adress-links:focus{
+            color: #404bbf; 
         }
 .page-title{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -62,15 +74,23 @@ h1, h2{
 .section-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
 }
 .page-title-button{
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
     background: #4d5ae5;
+}
+.first-section .page-title-button:hover,
+.first-section .page-title-button:focus{
+    color: #404bbf;
 }
 .second-section-mini-titles{
 font-weight: 500;
@@ -92,9 +112,12 @@ color: #434455;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.1;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color:#4d5ae5;
+}
+.footer-logo-symbol{
     color: #f4f4fd;
 }
 .footer-paragraph{
@@ -104,3 +127,12 @@ letter-spacing: 0.02em;
 color: #f4f4fd;
 }
 
+.third-section{
+    background: #F4F4FD;
+}
+.team-info{
+    background-color: #FFFFFF;
+}
+.section-title-portfolio{
+    line-height: 1.11;
+}
