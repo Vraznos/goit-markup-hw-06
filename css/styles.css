@@ -39,9 +39,9 @@ h1, h2{
         letter-spacing: 0.02em;
         color: #2e2f42;
         }
-        .header-navigation-links hover,
-        .header-navigation-links foucs{
-            color: #404bbf;
+.header-navigation-links:hover,
+.header-navigation-links:focus{
+        color: #404bbf;
         }
 .adress-links{
             font-family: "Roboto", sans-serif;
@@ -88,8 +88,8 @@ h1, h2{
     color: #FFFFFF;
     background: #4d5ae5;
 }
-.first-section .page-title-button:hover,
-.first-section .page-title-button:focus{
+.page-title-button:hover,
+.page-title-button:focus{
     color:#404BBF ;
 }
 .second-section-mini-titles{
