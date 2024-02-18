@@ -20,6 +20,8 @@ p{
 h1, h2{
     font-weight: 700;
 }
+/* header */
+
 .logo-title{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -59,6 +61,7 @@ h1, h2{
         .adress-info .adress-links:focus{
             color: #404bbf; 
         }
+        /* section 1 */
 .page-title{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
