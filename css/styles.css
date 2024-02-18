@@ -1,5 +1,12 @@
 ul, ol{
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 a{ 
     text-decoration: none;
@@ -7,6 +14,9 @@ a{
 }
 button{
     cursor: pointer;
+}
+img{
+    display: block;
 }
 body{
     font-family: "Roboto", sans-serif;
@@ -29,10 +39,22 @@ h1, h2{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: #4D5AE5; 
+    padding-right: 76px;
+
     }
 .logo-symbol{
         color: #2e2f42;
+    }
+    .header-navigation{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .header-list{
+        display: flex;
+        gap: 40px;
+        padding-right: 332px;
     }
 .header-navigation-links{
         font-weight: 500;
@@ -45,6 +67,11 @@ h1, h2{
 .header-navigation-links:focus{
         color: #404bbf;
         }
+        .address-list{
+            display: flex;
+            gap: 40px;
+            flex-wrap: nowrap;
+        }
 .adress-links{
             font-family: "Roboto", sans-serif;
             font-weight: 400;
@@ -56,6 +83,7 @@ h1, h2{
         }
         .adress-info{
         font-style: normal;
+       
         }
         .adress-info .adress-links:hover,
         .adress-info .adress-links:focus{
@@ -63,6 +91,7 @@ h1, h2{
         }
         /* section 1 */
 .page-title{
+    width: 496px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
@@ -70,7 +99,30 @@ h1, h2{
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    margin-bottom: 48px;
 }
+.page-title-button{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4d5ae5;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    border: none;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 0 auto;
+    display: block;
+
+}
+.page-title-button:hover,
+.page-title-button:focus{
+    background-color:#404BBF;
+}
+/* First section */
 .first-section{
     background-color: #2E2F42;
 }
@@ -82,34 +134,28 @@ h1, h2{
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 50px;
 }
-.page-title-button{
-    font-family: inherit;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background: #4d5ae5;
-}
-.page-title-button:hover,
-.page-title-button:focus{
-    background-color:#404BBF;
-}
+
 .second-section-mini-titles{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+text-align: center;
 }
 .second-section-paragaph{
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+text-align: center;
 }
 .footer-page{
     background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .footer-logo-title{
     font-family: "Raleway", sans-serif;
@@ -119,6 +165,7 @@ color: #434455;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#4d5ae5;
+    
 }
 .footer-logo-symbol{
     color: #f4f4fd;
@@ -128,17 +175,87 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
+width: 264px;
+margin-top: 16px;
 }
 
-.fourth-section{
-    background: #F4F4FD;
+
+.team-list{
+    display: flex;
+    justify-content: space-between;
 }
 .team-info{
     background-color: #FFFFFF;
-}
-.section-title-portfolio{
-    line-height: 1.11;
+    width: calc((100% - 72px) / 4);
 }
 .third-section{
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.container{
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top{
+    
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.main-title-div{
+    padding-top: 188px;
+    padding-right: 343px;
+    padding-bottom: 292px;
+    padding-left: 319px;
+}
+.benefits-list{
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    justify-content: space-between;
+    
+    
+}
+.benefits-list-item{
+    width: calc((100% - 72px) / 4);
+    
+}
+.team-div{
+
+}
+.team-img{
+    margin-bottom: 32px;
+}
+.benefits-mini-title{
+    text-align: start;
+}
+.benefits-paragraph{text-align: start;
+}
+.fourth-section{
+    padding-top: 120px;
+    padding-bottom: 154px;
+    background: #F4F4FD;
+    }
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.portfolio-list-item{
+   
+    width: calc((100% - 72) / 3);
+}
+.portfolio-mimi-title{
+    text-align: start;
+}
+.portfolio-mini-par{
+    text-align: start;
 }
