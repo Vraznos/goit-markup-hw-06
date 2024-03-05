@@ -523,8 +523,7 @@ h2 {
 
   opacity: 0;
   visibility: hidden;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visivility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop {
@@ -567,6 +566,7 @@ h2 {
 .modal-close-btn:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff
 }
 .modal-close-btn-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -600,6 +600,9 @@ h2 {
 
 .input-icon:focus {
   border-color: #4d5ae5;
+}
+.review-form-wrapper{
+  margin-bottom: 16px;
 }
 .review-form-label {
   display: block;
@@ -661,10 +664,7 @@ h2 {
 }
 
 .review-form-own-checkbox {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
+  transition: transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   justify-content: center;
   align-items: center;
   width: 16px;
@@ -708,6 +708,7 @@ h2 {
   display: block;
   border: none;
   background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .privacy-policy-check-icon {
   height: 16px;
