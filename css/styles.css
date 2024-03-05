@@ -601,7 +601,7 @@ h2 {
 .input-icon:focus {
   border-color: #4d5ae5;
 }
-.review-form-wrapper{
+.comment-wrapper{
   margin-bottom: 16px;
 }
 .review-form-label {
@@ -664,7 +664,7 @@ h2 {
 }
 
 .review-form-own-checkbox {
-  transition: transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   justify-content: center;
   align-items: center;
   width: 16px;
@@ -672,7 +672,7 @@ h2 {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-
+display: inline-flex;
   cursor: pointer;
   fill: transparent;
   transition: background-color 250ms;
