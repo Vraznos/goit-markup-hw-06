@@ -455,8 +455,63 @@ h2 {
 /* .footer-div-icons{
   display: flex;
 } */
-
-.backdrop{
+.subscribe-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subcribe-par{
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+margin-bottom: 16px;
+}
+.subscribe-form{
+  display: flex;
+  gap 24px;
+}
+.subscribe-input{
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  background-color: transparent;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+font-size: 12px;
+padding-left: 16px;
+line-height: 2;
+letter-spacing: 0.04em;
+color: #fff;
+}
+.subscribe-input::placeholder{
+  color: #FFFFFF;
+}
+.subscribe-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+padding: 8px 24px;
+min-width: 165px;
+height: 40px;
+background: #4d5ae5;
+border: none;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+text-align: center;
+color: #fff;
+cursor: pointer;
+}
+.subscribe-icon{
+  margin-left: 16px;
+}
+/* .backdrop{
   position: fixed;
   top: 0;
   left: 0;
@@ -468,7 +523,7 @@ h2 {
   opacity: 0;
   visibility: hidden;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) , visivility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .backdrop{
   opacity: 1;
