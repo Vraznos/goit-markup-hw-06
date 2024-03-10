@@ -450,13 +450,7 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* .footer-div-icons{
-  display: flex;
-} */
 .subscribe-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 24px;
   margin-left: 80px;
 }
@@ -512,6 +506,7 @@ h2 {
 .subscribe-icon {
   margin-left: 16px;
 }
+/* Bacdrop */
 .backdrop {
   position: fixed;
   top: 0;
@@ -585,7 +580,6 @@ h2 {
 }
 .svg-wrapper {
   position: relative;
-  margin-bottom: 16px;
 }
 .input-icon {
   position: absolute;
@@ -630,6 +624,7 @@ h2 {
   fill: #4d5ae5;
 }
 .review-form-message {
+  display: block;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
