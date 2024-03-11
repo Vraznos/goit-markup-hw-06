@@ -61,6 +61,8 @@ h2 {
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+    padding-right: 16px;
+    padding-left: 16px;
   }
 }
 @media only screen and (min-width: 1158px) {
@@ -78,6 +80,22 @@ h2 {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 72px;
+}
+.second-section-mini-titles {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.second-section-paragaph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: center;
 }
 /* Common styles */
 /* Header styles */
@@ -207,13 +225,9 @@ h2 {
     flex-wrap: nowrap;
   }
   .address-links {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 .benefits-list-item {
@@ -326,8 +340,101 @@ h2 {
 }
 /* First section */
 /* Second-section */
+.second-section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.benefits-list {
+  display: flex;
+  flex-direction: column;
+}
+.benefits-list-item {
+  width: 100%;
+  margin-bottom: 72px;
+}
+.benefits-list-item-icon {
+  display: none;
+}
+.benefits-mini-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
 
+.benefits-paragraph {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: start;
+}
+@media only screen and (min-width: 768px) {
+  .benefits-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 24px;
+  }
+  .benefits-list-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .benefits-mini-title {
+    text-align: start;
+  }
+}
+@media only screen and (min-width: 1158px) {
+  .benefits-list-item-icon {
+    display: block;
+  }
+  .benefits-list {
+    display: flex;
+    gap: 24px;
+  }
+  .benefits-list-item {
+    width: calc((100% - 72px) / 4);
+  }
+  .benefits-mini-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  }
+  .benefits-paragraph {
+    font-weight: 400;
+  }
+  .benefits-mini-title {
+    text-align: start;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .second-section-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+  }
+}
 /* Second-section */
+/* Third section */
+
+/* Third section */
 /* Modal mobile header */
 .mobile-menu {
   position: fixed;
@@ -383,11 +490,11 @@ h2 {
 .studio-par {
   color: #404bbf;
 }
-.adress-modal-info {
+.address-modal-info {
   font-style: normal;
 }
-.adress-modal-info .adress-modal-links:hover,
-.adress-modal-info .adress-modal-links:focus {
+.address-modal-info .address-modal-links:hover,
+.address-modal-info .adress-modal-links:focus {
   color: #404bbf;
 }
 .address-modal-list {
@@ -397,7 +504,7 @@ h2 {
   flex-wrap: nowrap;
   margin-bottom: 48px;
 }
-.adress-modal-links {
+.address-modal-links {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
