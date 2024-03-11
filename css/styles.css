@@ -247,17 +247,31 @@ padding-bottom: 40px;
         gap: 40px;
       }
       .adress-info{
+        display: block;
+      }
+      .adress-list{
         display: flex;
-        column-gap: 12px;
+        gap: 12px;
         flex-direction: column;
       }
       .burger-list{
         display: none;
       }
+      .mobile-menu{
+        display: none;
+      }
     }
-  }
-  @media only screen and (min-width: 1158px){
-    .section-title{
-        
-    }
+  
+    @media screen and (min-width: 1158px) {
+      .logo-title {
+          margin-right: 76px;
+      }
+      .address-list {
+          flex-direction: row;
+          gap: 40px;
+      }
+      .address-links {  
+          font-size: 16px;
+          line-height: 1.5;
+      }
   }
