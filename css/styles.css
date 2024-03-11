@@ -129,7 +129,7 @@ h2 {
   padding: 0;
   line-height: 0;
 }
-@media only screen and (min-width: 736px) {
+@media only screen and (min-width: 768px) {
   .main-header {
     padding-top: 16px;
     padding-bottom: 16px;
@@ -272,7 +272,49 @@ h2 {
 .page-title-button:focus {
   background-color: #404bbf;
 }
+@media only screen and (min-width: 768px){
+.first-section{
+  max-width: 768px;
+  padding-top: 94px;
+  padding-bottom: 112px;
+}
+.page-title{
+  max-width: 496px;
+  font-size: 56px;
+line-height: 1.07143;
+
+}
+}
+@media only screen and (min-width: 1158px){
+  .first-section {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    max-width: 1440px;
+    height: 600px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+     rgba(46, 47, 66, 0.70)),
+      url(../images/bg.jpg);
+}
+  .page-title {
+    max-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (min-resolution: 192dpi){
+    .first-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+         rgba(46, 47, 66, 0.70)),
+          url(../images/bg@2x.jpg);
+            }
+        }
 /* First section */
+/* Second-section */
+
+/* Second-section */
 /* Modal mobile header */
 .mobile-menu {
   position: fixed;
