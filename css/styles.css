@@ -1,3 +1,4 @@
+/* Common styles */
 ul,
 ol {
   list-style-type: none;
@@ -78,16 +79,9 @@ text-align: center;
 color: #2e2f42;
 margin-bottom: 72px;
   }
-  @media only screen and (min-width: 736px){
-    .section-title{
+  /* Common styles */
+  /* Header styles */
 
-    }
-  }
-  @media only screen and (min-width: 1158px){
-    .section-title{
-        
-    }
-  }
 .main-header{
   padding-bottom: 16px;
   padding-top: 16px;
@@ -124,6 +118,8 @@ margin-bottom: 72px;
     height: 24px;
     top: 16px;
   }
+  /* Header styles */
+  /* Modal mobile header */
   .mobile-menu{
     position: fixed ;
     top: 0;
@@ -237,3 +233,31 @@ padding-bottom: 40px;
 .website-icon {
   fill: #f4f4fd;
 }
+  /* Modal mobile header */
+  @media only screen and (min-width: 736px){
+    .main-header{
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+    .logo-title{
+      margin-right: 120px;
+    }
+      .header-list{
+        display: inline-flex;
+        gap: 40px;
+      }
+      .adress-info{
+        display: flex;
+        column-gap: 12px;
+        flex-direction: column;
+      }
+      .burger-list{
+        display: none;
+      }
+    }
+  }
+  @media only screen and (min-width: 1158px){
+    .section-title{
+        
+    }
+  }
